@@ -4,13 +4,37 @@
 
 Created a calendar. Click on an event to see more information about the event and a link to reserve a spot for the event.
 
+![Events](Designs/Events.jpg)
+
+### Game Collection
+
+Redesigned the game collection website turning the spreadsheet into an actual page! Users can look through all the games offered at the cafe. They can also sort the games and see different categories such as staff picks.
+
+![Games](Designs/Boardgame.jpg)
+
 ### Menu
 
 Click on each item on the menu to learn more about it and the pricing.
 
+![Games](Designs/Menu.jpg)
+
 ### Reservations
 
 Leads to a separate reservations page and gift card buying page. Can look through the different birthday package options using the carousel view
+
+![Games](Designs/Reservation.jpg)
+
+### Home
+
+Displays all the info on the home page like hours, social media, news etc...
+
+![Games](Designs/Home.jpg)
+
+### About
+
+Displays details about the cafe
+
+![Games](Designs/About.jpg)
 
 # Getting Started with Create React App
 

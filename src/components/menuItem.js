@@ -25,7 +25,7 @@ const MenuItem = ({ item }) => {
                 <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
                 <pointLight position={[10, 10, 10]} />
                 {item.name === 'Coffee' ? (
-                  <ModelLoader path="/3DAssets/iced-coffee/tinker.obj" /> 
+                  <ModelLoader path="../3DAssets/iced-coffee/tinker.obj" /> 
                 ) : (
                   <mesh>
                     <boxGeometry args={[1, 1, 1]} />
