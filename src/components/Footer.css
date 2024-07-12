@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer {
+    background-color: #fffee0;
+    color: black;
+}
+
+.footer address {
+    margin: 0;
+    font-style: normal;
+}
+
+.footer .company-name {
+    font-weight: bold;
+}
+
+.footer .social-icons a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer .social-icons .me-2 img{
+    width: 30px; 
+    height: 30px; 
+}
+
+.footer .col-md-6 .company-name {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

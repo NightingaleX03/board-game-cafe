@@ -1,6 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar'; // Navbar component
 import { BrowserRouter as Router, useRoutes} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './components/Navbar.css'; 
+import Footer from './components/Footer';
+
 
 // Pages
 import Homepage from './pages/homePage'; // Home page
@@ -26,6 +31,7 @@ const App = () => {
         <Router>
             <Navbar />
             <AppRoutes />
+            <Footer />
         </Router>
     );
 };
