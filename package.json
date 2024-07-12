@@ -15,10 +15,7 @@
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
     "three": "^0.166.1",
-<<<<<<< HEAD
     "three.js": "^0.77.1",
-=======
->>>>>>> 9edac58eb4f33871cfa8ca707750e1de29522897
     "web-vitals": "^2.1.4"
   },
   "scripts": {
