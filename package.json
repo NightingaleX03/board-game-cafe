@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,7 +15,10 @@
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
     "three": "^0.166.1",
+<<<<<<< HEAD
     "three.js": "^0.77.1",
+=======
+>>>>>>> 9edac58eb4f33871cfa8ca707750e1de29522897
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,8 +1,8 @@
 import React from 'react';
+import '../styles/Navbar.css';
 import logo from '../images/sipnplay.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './Navbar.css';
 
 const Navbar = () => {
     return (

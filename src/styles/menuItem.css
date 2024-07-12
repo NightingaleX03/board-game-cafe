@@ -1,0 +1,70 @@
+.menu-item {
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .item-thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-thumbnail img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .popup-left, .popup-right {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .popup-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .popup-right h2 {
+    margin-bottom: 10px;
+  }
+  
+  .popup-right p {
+    margin-bottom: 10px;
+  }
+  
+  .popup-right button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup-right button:hover {
+    background: #0056b3;
+  }
+  
