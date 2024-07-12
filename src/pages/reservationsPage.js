@@ -25,6 +25,8 @@ const ReservationPage = () => {
                 Reservations are $15 a person for 3 hours of game time. 
                 Other rates apply for certain events.
             </p>
+
+            <div className="spacer"></div>
             
             <h3>Birthday Packages</h3>
             <Carousel 
@@ -55,7 +57,7 @@ const ReservationPage = () => {
 
             <h3>Gift Cards</h3>
             <p>
-                Enjoyed your time and want to gift the joy of board games with us? Give a gift card!
+                Enjoyed your time and want to gift the joy of board games at our cafe? Give a gift card!
             </p>
             <a href="https://squareup.com/gift/SWP5P3242C38Q/order" target="_blank" rel="noopener noreferrer">
                 <button className="rounded-button buy-now">Buy Now</button>

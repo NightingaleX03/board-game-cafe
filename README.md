@@ -1,3 +1,17 @@
+# Board Game Cafe
+
+### Events
+
+Created a calendar. Click on an event to see more information about the event and a link to reserve a spot for the event.
+
+### Menu
+
+Click on each item on the menu to learn more about it and the pricing.
+
+### Reservations
+
+Leads to a separate reservations page and gift card buying page. Can look through the different birthday package options using the carousel view
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
