@@ -54,7 +54,7 @@ All images and photos are documented in Json Files and any 3D models used have b
 - Get the events info and display it in Calendar Format
 - Each Event is clickable displaying a popup with event info and reservation link
 
-
+![Events](Designs/EventsDesign)
 ![Events](Designs/EventsPage.png)
 
 ### Game Collection
@@ -78,12 +78,14 @@ Click on each item on the menu to learn more about it and the pricing.
 - Categorize into the same sections from actual website
 - Creating an engaging UX/UI design with viabrant colors to catch Users Interest
 
+![Events](Designs/menuDesign)
 ![Games](Designs/MenuPage.png)
 
 ### Reservations
 
 Leads to a separate reservations page and gift card buying page. Can look through the different birthday package options using the carousel view
 
+![Events](Designs/ReservationDesign)
 ![Games](Designs/ReservationsPage.png)
 
 ### About
