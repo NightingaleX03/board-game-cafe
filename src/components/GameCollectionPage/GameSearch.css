@@ -1,0 +1,53 @@
+.game-list-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .filters-column {
+    padding: 20px;
+    background-color: #fff; 
+    color: #fff;
+  }
+  
+  .search-results-column {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .curved-box {
+    border: 1px solid #93bc73;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #e5f0dd;
+    color: #000000;
+  }
+  
+  .search-column {
+    margin-bottom: 20px;
+    padding:10px;
+    font-size: 16px;
+    boarder: 1px solid;
+    board-radius: 4px;
+  }
+  
+  .game-card {
+    background-color: #f3f2f6;
+    border: 1px solid #f3f2f6;
+    border-radius: 8px;
+    margin-bottom: 2px;
+  }
+  
+  .game-card h4 {
+    margin-left: 20px;
+    margin: 0;
+  }
+  
+  .page-navigation {
+    margin-top: 20px;
+  }
+  
+  /* Style buttons and inputs as needed */
+  button {
+    margin-right: 10px;
+  }
+  
