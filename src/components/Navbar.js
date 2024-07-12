@@ -1,17 +1,17 @@
 import React from 'react';
-import logo from '../images/logonav.png';
-import './navbar.css';
+import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <img src={logo} alt="My Logo" />
             </div>
             <ul className="nav-links">
-                <li><a href="/">Welcome</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/about">Blog Page</a></li>
-                <li><a href="/contact">Contact Me</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Events">Events</a></li>
+                <li><a href="/GameCollection">Game Collection</a></li>
+                <li><a href="/Menu">Menu</a></li>
+                <li><a href="/Reservation">Reservation</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </nav>
     );

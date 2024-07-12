@@ -3,17 +3,21 @@ import Navbar from './components/Navbar'; // Navbar component
 import { BrowserRouter as Router, useRoutes} from 'react-router-dom';
 
 // Pages
-import Projects from './pages/Project'; // Projects page
-import AboutPage from './pages/About'; // About page
-import Contact from './pages/Contact'; // Contact page
-import Homepage from './pages/HomePage'; // Home page
+import Homepage from './pages/homePage'; // Home page
+import AboutPage from './pages/aboutPage';
+import EventsCalendarPage from './pages/eventsCalendarPage';
+import GamesCollectionPage from './pages/gamesCollectionPage';
+import MenuPage from './pages/menuPage';
+import ReservationPage from './pages/reservationsPage';
 
 const AppRoutes = () => {
     return useRoutes([
         { path: "/", element: <Homepage /> },
-        { path: "/projects", element: <Projects /> },
+        { path: "/Events", element: <EventsCalendarPage /> },
+        { path: "/GameCollection", element: <GamesCollectionPage /> },
+        { path: "/Menu", element: <MenuPage /> },
+        { path: "/Reservation", element: <ReservationPage /> },
         { path: "/about", element: <AboutPage /> },
-        { path: "/contact", element: <Contact /> },
     ]);
 };
 
