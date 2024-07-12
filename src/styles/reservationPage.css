@@ -1,0 +1,79 @@
+/* ReservationPage.css */
+
+.centered-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.rounded-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-now {
+    background-color: #93BC73;
+    color: white;
+}
+
+.buy-now {
+    background-color: #E160A7;
+    color: white;
+}
+
+/* Styles for carousel */
+.custom-carousel {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f5f5f5; /* Lighter background color */
+}
+
+.custom-carousel .carousel .slide {
+    background: linear-gradient(135deg, #93BC73 0%, #B381E8 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.custom-carousel .carousel .slide h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.custom-carousel .carousel .slide p {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+}
+
+/* Customize arrow styles */
+.custom-carousel .carousel .control-prev.control-arrow:before,
+.custom-carousel .carousel .control-next.control-arrow:before {
+    font-size: 30px;
+    color: white; /* Arrow color */
+    background-color: rgba(179, 129, 232, 0.8); /* Semi-transparent purple background */
+    border-radius: 50%; /* Rounded arrow */
+    padding: 10px;
+}
+
+.custom-carousel .carousel .control-next.control-arrow:before {
+    right: -20px; /* Adjust arrow position */
+}
+
+.custom-carousel .carousel .control-prev.control-arrow:before {
+    left: -20px; /* Adjust arrow position */
+}
+
+/* Spacer for extra space */
+.spacer {
+    height: 40px; /* Adjust spacing height as needed */
+}
