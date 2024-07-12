@@ -1,33 +1,15 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: black;
+.custom-navbar {
+    background-color: #fffee0;
 }
 
-.logo img {
-    max-width: 100px;
+.custom-navbar .nav-link {
+    color: black;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 40px;
+.custom-navbar .nav-link:hover {
+    color: #555; 
 }
 
-.nav-links li {
-    margin: 0;
-}
-
-.nav-links a {
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-}
-
-.nav-links a:hover{
-    /*color:#9e4040;*/
-    color: #5d7a8f;
+.custom-navbar .navbar-brand img {
+    height: 100px;
 }
