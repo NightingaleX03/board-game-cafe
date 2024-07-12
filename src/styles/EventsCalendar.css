@@ -1,0 +1,30 @@
+/* Calendar Styles */
+.fc .fc-toolbar-title {
+    color: #93BC73; /* Green title */
+}
+
+.fc-daygrid-event {
+    background-color: #b381e8 !important; /* Purple event background */
+    border: none !important;
+    color: white !important; /* White text for events */
+}
+
+.fc-day-today {
+    background-color: #f3aad2 !important; /* Pink background for today's date */
+}
+
+/* Modal Styles */
+.modal-header {
+    background-color: #93BC73; /* Green header */
+    color: white; /* White text for header */
+}
+
+.btn-primary {
+    background-color: #b381e8; /* Purple button */
+    border-color: #b381e8; /* Purple border */
+}
+
+.btn-secondary {
+    background-color: #93BC73; /* Green button */
+    border-color: #93BC73; /* Green border */
+}
