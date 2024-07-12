@@ -1,13 +1,24 @@
-// pages/home.js
 import React from 'react';
+import MenuItem from '../components/menuItem'; 
 
 const MenuPage = () => {
-    return (
-        <div>
-            <h1>Welcome to My Website!</h1>
-            {/* Add other content specific to your homepage */}
-        </div>
-    );
+  const menuItems = [
+    {
+      name: 'Coffee',
+      description: 'Freshly brewed coffee.',
+      price: '$3.00',
+      thumbnail: '/path/to/coffee-thumbnail.jpg',
+    },
+    // Add more items here
+  ];
+
+  return (
+    <div className="menu-page">
+      {menuItems.map((item, index) => (
+        <MenuItem key={index} item={item} />
+      ))}
+    </div>
+  );
 };
 
 export default MenuPage;
