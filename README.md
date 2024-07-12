@@ -4,6 +4,8 @@
 *Thank you for stopping by! Are you wondering what this is? well great question!<br>*
 *This is Sip & Play boardgame cafe webpage designed during the Codedex Summer Hackathon!<br>*
 
+The deployment site doesn't work at the current moment however we've provided our READ.md file with the images from our site.
+
 ### :computer:	Sip & Play boardgame website is built with:
 - ![alt_text](https://img.shields.io/badge/REACT-dcecd4)
 - ![alt_text](https://img.shields.io/badge/BootStrap-dcecd4)
@@ -28,21 +30,39 @@ All images and photos are documented in Json Files and any 3D models used have b
 
 ### [Sip & Play](https://nightingalex03.github.io/board-game-cafe/)
 
+### Home
+
+- Users can get to this page from any part of the website by clicking on the logo on the navbar
+- Get info from actual site https://www.sipnplaynyc.com/ 
+- Provides a button to the reservation page
+- displays hours, location on embeded map and socials 
+- Also provides a access point towards teh Calendar Events Page
+
+![Games](Designs/Home.jpg)
+
 ### Events
 
-Created a calendar. Click on an event to see more information about the event and a link to reserve a spot for the event.
+- Get the events info and display it in Calendar Format
+- Each Event is clickable displaying a popup with event info and reservation link
+
 
 ![Events](Designs/EventsPage.png)
 
 ### Game Collection
 
-Redesigned the game collection website turning the spreadsheet into an actual page! Users can look through all the games offered at the cafe. They can also sort the games and see different categories such as staff picks.
+- Use a csv reader to read spreadsheet and display them on the site
+- Search Bar to enable easy navigation through boardgame list
+- Has different Filter options: A - Z, Z - A, Staff Picks for Families, Staff Picks for couples/2 player, Staff Picks for Hobbyists
 
 ![Games](Designs/Boardgame.jpg)
 
 ### Menu
 
 Click on each item on the menu to learn more about it and the pricing.
+
+- Use 3d assets for food items
+- Categorize into the same sections from actual website
+- Creating an engaging UX/UI design with viabrant colors to catch Users Interest
 
 ![Games](Designs/MenuPage.png)
 
@@ -52,17 +72,10 @@ Leads to a separate reservations page and gift card buying page. Can look throug
 
 ![Games](Designs/ReservationsPage.png)
 
-### Home
-
-Displays all the info on the home page like hours, social media, news etc...
-
-![Games](Designs/Home.jpg)
-
 ### About
 
-Displays details about the cafe
+- Details about page (get from actual website)
+- Displays Hours and contact Information
+- Embeded Map Location
 
 ![Games](Designs/About.jpg)
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
