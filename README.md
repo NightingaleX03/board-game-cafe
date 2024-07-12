@@ -17,6 +17,7 @@ The deployment site doesn't work at the current moment however we've provided ou
 - [x] Use real-time data stored in json files
 - [x] Using React and bootstrap to design an develop web app platform
 - [x] Creating User friendly UX/UI design
+- [x] Creating a responsive Site
 
 ### :clipboard: Sip & Play Site Future Goals:
 The future of this boardgame cafe site is currently uncertain... However I plan to develop better functionalities and complete all pages on this site. So far most features don't have the proper text and info nessessary to run this plateform which will also be included in the next steps.<br>
@@ -29,6 +30,11 @@ Some Future Goals However are:
 All images and photos are documented in Json Files and any 3D models used have been giving by the Codedex team via Notion.
 
 ### [Sip & Play](https://nightingalex03.github.io/board-game-cafe/)
+
+### Site Responsiveness: 
+![Games](Designs/SiteResponsive1)
+![Games](Designs/SiteResponsive3)
+![Games](Designs/SiteResponsive2)
 
 ### Home
 
