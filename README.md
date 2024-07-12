@@ -1,5 +1,33 @@
 # Board Game Cafe
 
+*Hello!<br>*
+*Thank you for stopping by! Are you wondering what this is? well great question!<br>*
+*This is Sip & Play boardgame cafe webpage designed during the Codedex Summer Hackathon!<br>*
+
+### :computer:	Sip & Play boardgame website is built with:
+- ![alt_text](https://img.shields.io/badge/REACT-dcecd4)
+- ![alt_text](https://img.shields.io/badge/BootStrap-dcecd4)
+- ![alt_text](https://img.shields.io/badge/CSS-dcecd4)
+- ![alt_text](https://img.shields.io/badge/Java_Script-dcecd4)
+- ![alt_text](https://img.shields.io/badge/HTML-dcecd4)
+
+### :clipboard: Goals for Sip & Play:
+- [x] Use real-time data stored in json files
+- [x] Using React and bootstrap to design an develop web app platform
+- [x] Creating User friendly UX/UI design
+
+### :clipboard: Sakura Sound Future Goals:
+The future of this boardgame cafe site is currently uncertain... However I plan to develop better functionalities and complete all pages on this site. So far most features don't have the proper text and info nessessary to run this plateform which will also be included in the next steps.<br>
+Some Future Goals However are:
+- [ ] Using MongoDB as way to store info
+- [ ] Better UX/UI design
+- [ ] Creating Admin login and having an Admin friendly UX/UI design of plateform
+
+### :clipboard: Boardgame Website Credits:
+All images and photos are documented in Json Files and any 3D models used have been giving by the Codedex team via Notion.
+
+### [Sip & Play](https://nightingalex03.github.io/board-game-cafe/)
+
 ### Events
 
 Created a calendar. Click on an event to see more information about the event and a link to reserve a spot for the event.
