@@ -1,0 +1,25 @@
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 600px; 
+}
+
+.carousel {
+    display: flex;
+    animation: slide 30s linear infinite;
+}
+
+.carousel > .newspaper {
+    flex: 0 0 calc(100% / 3);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

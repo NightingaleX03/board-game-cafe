@@ -1,0 +1,24 @@
+.newspaper {
+    background-color: #dcecd4;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%; /* Adjust the width to make it wider */
+    margin: 0 5%; /* Adjust margins to center and ensure proper spacing */
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.newspaper-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newspaper-text p {
+    text-align: justify;
+    line-height: 1.6;
+}
