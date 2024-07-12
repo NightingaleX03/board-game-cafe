@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.d4c09b58.css",
+    "main.js": "/repository-name/static/js/main.5f6cd567.js",
+    "static/js/453.fbf3d61c.chunk.js": "/repository-name/static/js/453.fbf3d61c.chunk.js",
+    "static/media/background.jpg": "/repository-name/static/media/background.b8956961134642fb8f56.jpg",
+    "static/media/instagram.png": "/repository-name/static/media/instagram.28944b9a16197e849f88.png",
+    "static/media/sipnplay.png": "/repository-name/static/media/sipnplay.909aaef21b4dfcadac88.png",
+    "static/media/discord.png": "/repository-name/static/media/discord.2697378c1fc4c2e8b020.png",
+    "static/media/facebook.png": "/repository-name/static/media/facebook.795fce8e464693d7346d.png",
+    "index.html": "/repository-name/index.html",
+    "main.d4c09b58.css.map": "/repository-name/static/css/main.d4c09b58.css.map",
+    "main.5f6cd567.js.map": "/repository-name/static/js/main.5f6cd567.js.map",
+    "453.fbf3d61c.chunk.js.map": "/repository-name/static/js/453.fbf3d61c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4c09b58.css",
+    "static/js/main.5f6cd567.js"
+  ]
+}
