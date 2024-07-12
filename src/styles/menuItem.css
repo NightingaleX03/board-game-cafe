@@ -1,70 +1,56 @@
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adjust spacing between menu items */
+}
+
 .menu-item {
-    position: relative;
-    margin: 20px;
-    cursor: pointer;
-  }
-  
-  .item-thumbnail {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .item-thumbnail img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 800px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  .popup-content {
-    display: flex;
-    padding: 20px;
-  }
-  
-  .popup-left, .popup-right {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  .popup-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .popup-right h2 {
-    margin-bottom: 10px;
-  }
-  
-  .popup-right p {
-    margin-bottom: 10px;
-  }
-  
-  .popup-right button {
-    align-self: flex-end;
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .popup-right button:hover {
-    background: #0056b3;
-  }
-  
+  display: flex; /* Ensure items are flex containers */
+  align-items: center; /* Center items vertically */
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.item-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  flex: 1; /* Expand to take up remaining space */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-left {
+  flex: 1;
+}
+
+.popup-right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.popup-right h2 {
+  margin-top: 0;
+}
+
+.popup-right button {
+  margin-top: 20px;
+}

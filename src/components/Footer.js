@@ -14,7 +14,7 @@ const Footer = () => {
                         <address className="mb-0">
                             471 5th Ave,<br />
                             New York, 11215<br />
-                            <a href="mailto:sipnplaynyc@gamil.com">sipnplaynyc@gamil.com</a><br />
+                            <a href="mailto:sipnplaynyc@gmail.com">sipnplaynyc@gmail.com</a><br />
                             718-971-1684
                         </address>
                     </div>
