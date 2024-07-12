@@ -58,11 +58,11 @@ All images and photos are documented in Json Files and any 3D models used have b
 - Has different Filter options: A - Z, Z - A, Staff Picks for Families, Staff Picks for couples/2 player, Staff Picks for Hobbyists
 
 ![Games](Designs/Boardgame.jpg)
-![Games](Dessigns/GamePage1)
-![Games](Dessigns/GamePage2)
-![Games](Dessigns/GamePage3)
-![Games](Dessigns/GamePage4)
-![Games](Dessigns/GamePage5)
+![Games](Designs/GamePage1)
+![Games](Designs/GamePage2)
+![Games](Designs/GamePage3)
+![Games](Designs/GamePage4)
+![Games](Designs/GamePage5)
 
 ### Menu
 
