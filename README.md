@@ -4,7 +4,7 @@
 
 Created a calendar. Click on an event to see more information about the event and a link to reserve a spot for the event.
 
-![Events](Designs/Events.jpg)
+![Events](Designs/EventsPage.jpg)
 
 ### Game Collection
 
@@ -16,13 +16,13 @@ Redesigned the game collection website turning the spreadsheet into an actual pa
 
 Click on each item on the menu to learn more about it and the pricing.
 
-![Games](Designs/Menu.jpg)
+![Games](Designs/MenuPage.jpg)
 
 ### Reservations
 
 Leads to a separate reservations page and gift card buying page. Can look through the different birthday package options using the carousel view
 
-![Games](Designs/Reservation.jpg)
+![Games](Designs/ReservationsPage.jpg)
 
 ### Home
 
