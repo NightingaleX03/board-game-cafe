@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.css';
+import '../styles/Footer.css';
 import instagramLogo from '../images/instagram.png';
 import facebookLogo from '../images/facebook.png';
 import discordLogo from '../images/discord.png';
